@@ -17,5 +17,13 @@ let isBoolean = Boolean(isLoggedIn)
 
 let someNumber=33
 let checkNumber=String(someNumber)
-console.log(checkNumber)
-console.log(typeof checkNumber)
+//console.log(checkNumber)
+//console.log(typeof checkNumber)
+
+// console.log("1"+2)
+// console.log(1+2+"2")
+// console.log(1+"2"+2)
+
+console.log(true)
+console.log(+true)
+
