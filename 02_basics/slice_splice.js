@@ -24,3 +24,16 @@ let fruits = ['apple', 'banana', 'cherry'];
 let newFruits = fruits.splice(1, 0, 'mango', 'orange');
 
 console.log(fruits); // ['apple','mango','orange','banana','cherry']
+
+/* splice()
+Purpose: Adds, removes, or replaces elements in place.
+
+Modifies the original array.
+
+Syntax: array.splice(start, deleteCount, item1, item2, ...)
+
+start → index to begin
+
+deleteCount → how many elements to remove
+
+item1, item2... → optional new elements to insert */
