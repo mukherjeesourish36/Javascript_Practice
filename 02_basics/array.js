@@ -9,4 +9,10 @@ arr.push(6)
 arr.pop()
 arr.unshift(7)
 arr.shift()
-console.log(arr);
+
+// console.log(arr.includes(7));
+// console.log(arr.indexOf(2));
+
+newArr = arr.join()
+console.log(newArr);
+console.log(typeof newArr);
