@@ -13,12 +13,26 @@
 
 // console.log(this)
 
-function chai()
-{
-    // let username = "Sourish"
-    username = "Sourish"
-    console.log(this.username)
-    console.log(this)
-}
+// function chai()
+// {
+//     // let username = "Sourish"
+//     username = "Sourish"
+//     console.log(this.username)
+//     console.log(this)
+// }
 
-chai()
+// chai()
+
+// const chai = function(){
+//      let username = "Sourish"
+//      console.log(this.username)
+// }
+
+// chai()
+
+// const chai = () => {
+//      let username = "Sourish"
+//      console.log(this)
+// }
+
+// chai()
