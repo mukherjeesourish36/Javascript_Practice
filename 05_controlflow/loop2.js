@@ -12,3 +12,8 @@
 //     console.log(arr[i])
 //     i++;
 // }
+let h = 1;
+do {
+    console.log(h);
+    h++;
+} while (h<=10);
