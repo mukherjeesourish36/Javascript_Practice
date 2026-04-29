@@ -32,12 +32,23 @@
 //     console.log(element)
 // }
 
+// for (let i = 1; i <=20 ; i++) {
+
+//     if(i == 5)
+//     {
+//         console.log(`${i} detected here so let's not proceed further`)
+//         break
+//     }
+
+//     console.log(`the values will be...${i}`)
+// }
+
 for (let i = 1; i <=20 ; i++) {
 
     if(i == 5)
     {
-        console.log(`${i} detected here so let's not proceed further`)
-        break
+        console.log(`${i} detected here so we can proceed further`)
+        continue
     }
 
     console.log(`the values will be...${i}`)
