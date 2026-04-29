@@ -24,10 +24,21 @@
 //     }
 // }
 
-const arr = ["Sourish","Soumen","Alok"];
+// const arr = ["Sourish","Soumen","Alok"];
 
-for(let i=0; i<arr.length; i++)
-{
-    let element = arr[i];
-    console.log(element)
+// for(let i=0; i<arr.length; i++)
+// {
+//     let element = arr[i];
+//     console.log(element)
+// }
+
+for (let i = 1; i <=20 ; i++) {
+
+    if(i == 5)
+    {
+        console.log(`${i} detected here so let's not proceed further`)
+        break
+    }
+
+    console.log(`the values will be...${i}`)
 }
