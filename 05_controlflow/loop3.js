@@ -32,12 +32,23 @@ countries.set("IL","Israel")
 //     console.log(`${key} => ${value}`)
 // }
 
-const user1 = {"id":1}
-const user2 = {"id":2}
+// const user1 = {"id":1}
+// const user2 = {"id":2}
 
-const s = new Map()
+// const s = new Map()
 
-s.set(user1, "Sourish")
-s.set(user2, "Sanjit")
+// s.set(user1, "Sourish")
+// s.set(user2, "Sanjit")
 
-console.log(s.get(user1))
+// console.log(s.get(user1))
+
+// const user = {
+//   name: "Sourish",
+//   age: 28,
+//   city: "Kolkata"
+// };
+
+// for (const key in user) {
+//   console.log(key, ":", user[key]);
+// }
+
