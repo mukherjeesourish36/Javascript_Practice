@@ -18,5 +18,15 @@
     const p = document.querySelector(".parent")
     console.log(p)
     console.log(p.children)
+    console.log(p.children[1].innerHTML)
+
+    // Array.from(p.children).forEach( (i) => {
+    //     console.log(i.innerHTML)
+    // });
+
+    p.children[3].style.color="orange"
+
+    console.log(p.firstElementChild);
+    console.log(p.lastElementChild);
 </script>
 </html>
