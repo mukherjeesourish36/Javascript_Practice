@@ -30,5 +30,5 @@ const students = [
 //     console.log(`${name} of ${age} years old lives in ${city} city`)
 // }
 
-const [ name, age, city ] = students;
- console.log(`${name} of ${age} years old lives in ${city} city`)
+// const [ name, age, city ] = students;
+//  console.log(`${name} of ${age} years old lives in ${city} city`)
