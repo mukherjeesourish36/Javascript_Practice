@@ -16,9 +16,9 @@
 </body>
 <script>
     const p = document.querySelector(".parent")
-    console.log(p)
-    console.log(p.children)
-    console.log(p.children[1].innerHTML)
+    // console.log(p)
+    // console.log(p.children)
+    // console.log(p.children[1].innerHTML)
 
     // Array.from(p.children).forEach( (i) => {
     //     console.log(i.innerHTML)
@@ -26,7 +26,14 @@
 
     p.children[3].style.color="orange"
 
-    console.log(p.firstElementChild);
-    console.log(p.lastElementChild);
+    // console.log(p.firstElementChild);
+    // console.log(p.lastElementChild);
+
+    const dayOne = document.querySelector(".day")
+    // console.log(dayOne);
+    // console.log(dayOne.parentElement);
+    // console.log(dayOne.nextElementSibling);
+
+    console.log(p.childNodes)
 </script>
 </html>
