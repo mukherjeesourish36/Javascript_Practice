@@ -45,10 +45,19 @@ const books = [
 //   console.log(newBooks);
 
 
-const num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// const num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-const n = num
-             .map((i) => i*10)
-             .map((i) => i+1)
-             .filter((i) => i >= 40 )
-console.log(n)
+// const n = num
+//              .map((i) => i*10)
+//              .map((i) => i+1)
+//              .filter((i) => i >= 40 )
+// console.log(n)
+
+const num = [1, 2, 3, 4]
+
+const myTotal = num.reduce((acc,currVal) => {
+  console.log(`acc: ${acc} and currVal: ${currVal}`)
+  return acc+currVal;
+},0)
+
+console.log(myTotal);
