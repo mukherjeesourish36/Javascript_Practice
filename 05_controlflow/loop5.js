@@ -1,8 +1,8 @@
-const num = [1,2,3,4,5,6,7,8,9,10]
+// const num = [1,2,3,4,5,6,7,8,9,10]
 
-const newNumber = num.map((i) => i+10 )
+// const newNumber = num.map((i) => i+10 )
 
-console.log(newNumber)
+// console.log(newNumber)
 
 // const newNum = num.filter((i) => i>4)
 
@@ -43,3 +43,12 @@ const books = [
 // } )
 
 //   console.log(newBooks);
+
+
+const num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+const n = num
+             .map((i) => i*10)
+             .map((i) => i+1)
+             .filter((i) => i >= 40 )
+console.log(n)
