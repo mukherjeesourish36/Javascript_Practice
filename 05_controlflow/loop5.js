@@ -1,5 +1,9 @@
 const num = [1,2,3,4,5,6,7,8,9,10]
 
+const newNumber = num.map((i) => i+10 )
+
+console.log(newNumber)
+
 // const newNum = num.filter((i) => i>4)
 
 // const newNum = num.filter((i) => {
@@ -34,8 +38,8 @@ const books = [
 
 // const newBooks = books.filter((bk)=> bk.publish>2000 )
 
-const newBooks = books.filter((bk)=> {
-    return bk.publish > 2000 && bk.genre === "Science"
-} )
+// const newBooks = books.filter((bk)=> {
+//     return bk.publish > 2000 && bk.genre === "Science"
+// } )
 
-  console.log(newBooks);
+//   console.log(newBooks);
