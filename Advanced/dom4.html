@@ -25,5 +25,12 @@
        document.querySelector(".language").appendChild(li);
     }
      addElementsOpti("Go Lang")
+
+     const l= document.querySelector("li:nth-child(2)")
+     //l.innerHTML="C Sharp"
+     const n = document.createElement("li");
+     n.textContent="CSS"
+     l.replaceWith(n)
+
 </script>
 </html>
