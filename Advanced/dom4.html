@@ -10,4 +10,20 @@
         <li>Javascript</li>
     </ul>
 </body>
+<script>
+    function addElements(lang){
+       const li = document.createElement("li");
+       li.innerHTML = lang;
+       document.querySelector(".language").appendChild(li);
+    }
+    addElements("C++")
+    addElements("Python")
+   
+    function addElementsOpti(lang){
+       const li = document.createElement("li");
+       li.appendChild(document.createTextNode(lang))
+       document.querySelector(".language").appendChild(li);
+    }
+     addElementsOpti("Go Lang")
+</script>
 </html>
