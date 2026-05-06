@@ -1,0 +1,36 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Search box styling */
+input#searchBox {
+  margin-bottom: 15px;
+  padding: 8px 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Student list styling */
+#students {
+  list-style-type: none; /* remove default bullets */
+  padding: 0;
+}
+
+#students li {
+  padding: 6px 10px;
+  margin-bottom: 5px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+/* Hover effect */
+#students li:hover {
+  background-color: #e6f2ff;
+}
