@@ -29,4 +29,30 @@ const promiseThree = new Promise(function(resolve,reject){
 promiseThree.then(function(obj){
    console.log(obj);
    console.log("Promise 3 consumed..");
-})
+});
+
+
+const promiseFour = new Promise(function(resolve,reject){
+       setTimeout(function() {
+             let error = false;
+             if(!error)
+             {
+                   console.log("This is task 4");
+                  resolve({name:"Oscar",email:"oscar@example.com"});
+             }else{
+                reject("this is an error");
+             }
+             
+       },1000);
+});
+
+promiseFour.then(function(usr){
+   console.log(usr)
+   return usr.email;
+}).then(function(email){
+    console.log(email);
+}).catch(function(err){
+    console.log(err);
+}).finally(()=>{
+    console.log("promise either kept or rejected...");
+});
