@@ -56,3 +56,31 @@ promiseFour.then(function(usr){
 }).finally(()=>{
     console.log("promise either kept or rejected...");
 });
+
+
+const promiseFive = new Promise(function(resolve,reject){
+       setTimeout(function() {
+             let error = true;
+             if(!error)
+             {
+                   console.log("This is task 5");
+                  resolve({name:"Alex",email:"alex@example.com"});
+             }else{
+                reject("this is an error");
+             }
+             
+       },1000);
+});
+
+
+async function promiseFiveFunc() {
+    try {
+        const response = await promiseFive;
+        console.log(response);
+        
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+promiseFiveFunc();
