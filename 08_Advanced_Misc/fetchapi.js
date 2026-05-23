@@ -1,5 +1,6 @@
 const getApi = "https://catfact.ninja/facts";
-//const paraData = document.querySelector("#para");
+const paraData = document.querySelector("#para");
+const bt = document.querySelector("#btn");
 
 const getData = async () => {
      let res = await fetch(getApi);
@@ -7,9 +8,10 @@ const getData = async () => {
      let data = await res.json();
      console.log(data);
     console.log(data.data[0].fact);
-   // paraData.innerText=data.data[0].fact;
+    paraData.innerText=data.data[0].fact;
 
     //console.log(data);
     
 };
-getData();
+bt.addEventListener("click",getData);
+//getData();
